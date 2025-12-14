@@ -1,0 +1,259 @@
+*:focus{
+  outline:none;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-wrapper ul {
+  display: flex;
+
+
+}
+
+.header-wrapper ul li {
+  list-style-type: none;
+  padding: 5px;
+
+}
+
+.header-wrapper ul li a {
+  text-decoration: none;
+}
+
+.footer-wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+}
+
+.header-wrapper ul li button {
+  background-color: transparent;
+  border: none;
+  color: blueviolet;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.input-wrapper{
+  margin:10px;
+
+}
+.input-field{
+  width: 200px;
+  height: 30px;
+
+}
+.button{
+  width:200px;
+  height:30px;
+}
+.container{
+  text-align: center;
+}
+.button-link{
+  border:0;
+  cursor:pointer;
+  background-color: transparent;
+  color:skyblue;
+  margin: 20px;
+}
+.input-error{
+  position:absolute;
+  color:red;
+  font-size: 14px;
+  padding:7px;
+}
+table, th, td{
+  border:1px solid #000;
+  border-collapse:collapse;
+  padding:10px;
+  
+}
+table td button{
+  margin:5px;
+}
+table img{
+  width:80px
+}
+.main-page-banner,.restaurant-page-banner{
+  background-image: url("https://www.shutterstock.com/image-photo/background-food-dishes-european-cuisine-260nw-2490284951.jpg");
+  background-color: rgb(0,0,0,0.6);
+  background-blend-mode:multiply;
+  padding:30px;
+  height:230px;
+  color:#fff;
+  text-align: center;
+}
+.input-wrapper{
+  background-color: #fff;
+  padding:5px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  margin:auto;
+  width:60%
+}
+.select-input{
+  height: 40px;
+  border:none;
+  width:25%;
+  padding-left: 15px;
+}
+.search-input {
+  height: 40px;
+  border: none;
+  width:65%;
+  border-left: 1px solid #ccc;
+  padding-left: 15px;
+
+}
+
+.location-list{
+  color:#000;
+  list-style-type: none;
+  text-align: left;
+  position:absolute;
+  background-color: #fff;
+  padding:0;
+  margin:0;
+  margin-left: -5px;
+  border: 1px solid;
+}
+
+.location-list li{
+  width:100px;
+  padding:5px;
+  border-bottom: 1px solid #ccc;
+  cursor:pointer;
+
+}
+
+.restaurant-list-container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  margin-top: 40px;
+  margin-bottom:50px;
+}
+.restaurant-wrapper{
+  width:35%;
+  background-color: orange;
+  margin:10px;
+  padding:10px;
+  border: 1px solid #aaa;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.restaurant-wrapper
+.heading-wrapper,
+.restaurant-wrapper
+.address-wrapper{
+  padding-left:15px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.restaurant-wrapper h5{
+  margin-left:15px;
+}
+
+.restaurant-wrapper .address{
+  margin-left: 5px;
+}
+
+.restaurant-page-banner h1{
+  font-size:65px;
+  
+}
+
+.detail-wrapper{
+  display:flex;
+  background-color: orange;
+
+}
+
+.detail-wrapper h4{
+  width:50%;
+}
+.food-item-wrapper{
+  margin-top:50px;
+  margin-bottom: 50px;
+
+}
+
+.food-item-wrapper .list-item{
+  padding: 20px;
+  color:orange;
+  font-weight: bold;
+  border-bottom: 1px solid orange;
+  display: flex;
+  text-transform: capitalize;
+
+}
+
+.food-item-wrapper .list-item button{
+  color:#fff;
+  border:none;
+  background-color: orange;
+  padding:5px;
+  border-radius: 4px;
+  cursor:pointer
+}
+
+.food-item-wrapper .list-item img{
+  width:100px;
+  padding-right: 20px;
+}
+
+.food-item-wrapper .list-item .description{
+  font-weight:lighter;
+}
+
+.list-item-block-1{
+   width:20%;
+}
+.list-item-block-2{
+  width:80%;
+}
+.list-item-block-3{
+  width:20%;
+}
+.total-wrapper{
+  display:flex;
+  
+  flex-wrap:wrap;
+  border-bottom: 1px solid orange;
+  padding-bottom:20px;
+}
+.total-wrapper .row{
+  display:flex;
+  justify-content:space-between;
+  margin-left:20%;
+  margin-right:20%;
+  color:orange;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.total-wrapper .block-1{
+  width:70%;
+}
+.total-wrapper .block-2{
+  width:30%
+}
+
+.total-wrapper .block-2 button{
+  padding:10px 25px;
+  border:none;
+  background-color: orange;
+  color:#fff;
+  border-radius:4px;
+  cursor:pointer;
+}
+
